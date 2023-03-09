@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test"  >
+    <test name="Regression1" >
+        <classes>
+            <class name="tests.test11">
+                    <methods>
+                        <include name="Test2"/>
+                    </methods>
+            </class>
+        </classes>
+    </test>
+    <!--xml dosyası ile TESTNG java dosyasını çalıstıtıyoruz-->
+
+</suite>

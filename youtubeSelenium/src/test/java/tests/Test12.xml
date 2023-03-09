@@ -1,0 +1,15 @@
+<!--    <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > -->
+<suite name="test suite">
+<test name="grup bulma">
+    <groups>
+        <run>
+            <include name="Grup B"/>
+        </run>
+    </groups>
+    <classes>
+        <class name="tests.test12">
+
+        </class>
+    </classes>
+</test>
+</suite>

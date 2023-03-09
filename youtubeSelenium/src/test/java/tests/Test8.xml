@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test8" verbose="2" >
+    <test name="Regression1" >
+        <classes>
+            <class name="tests.test8" />
+        </classes>
+    </test>
+    <!--xml dosyası ile TESTNG java dosyasını çalıstıtıyoruz-->
+
+</suite>
